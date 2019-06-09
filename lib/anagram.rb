@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  
+
   attr_accessor :spec, :specs
   def initialize(specs)
     @spec = specs
