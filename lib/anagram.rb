@@ -6,7 +6,7 @@ class Anagram
     @spec = specs
     # @@emails << emails
     @@specs = @email.split /[," "]/
-    @@spec.delete("")
+    @@specs.delete("")
 
   end
   def parse
