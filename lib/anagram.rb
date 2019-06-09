@@ -10,6 +10,6 @@ class Anagram
 
   end
   def parse
-    @@emails.uniq
+    @@specs.uniq
   end
 end
