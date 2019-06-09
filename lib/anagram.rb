@@ -1,12 +1,12 @@
 # Your code goes here!
 class Anagram
   @@emails = []
-  attr_accessor :email
-  def initialize(emails)
-    @email = emails
+  attr_accessor :spec
+  def initialize(specs)
+    @spec = specs
     # @@emails << emails
-    @@emails = @email.split /[," "]/
-    @@emails.delete("")
+    @@specs = @email.split /[," "]/
+    @@spec.delete("")
 
   end
   def parse
