@@ -11,8 +11,8 @@ class Anagram
       # is_anagram?(word)
       if str.chars.sort == @spec.chars.sort
         puts "#{str.chars.sort}"
-      end  
+      end
     end
   end
-  
+
 end
