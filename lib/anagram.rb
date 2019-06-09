@@ -6,8 +6,12 @@ class Anagram
     @spec = specs
 
   end
-  def match(str)
-    
-
+  def match(strs)
+    strs.select do |str|
+      # is_anagram?(word)
+      if str == @spec
+        puts "#{str}"
+    end
   end
+  
 end
