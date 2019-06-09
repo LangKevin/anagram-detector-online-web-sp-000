@@ -9,7 +9,7 @@ class Anagram
     @@specs.delete("")
 
   end
-  def parse
+  def match
     @@specs.uniq
   end
 end
