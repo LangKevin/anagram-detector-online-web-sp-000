@@ -1,6 +1,6 @@
 # Your code goes here!
 class Anagram
-  @@emails = []
+  @@specs = []
   attr_accessor :spec
   def initialize(specs)
     @spec = specs
