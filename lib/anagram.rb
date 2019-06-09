@@ -9,8 +9,9 @@ class Anagram
   def match(strs)
     strs.select do |str|
       # is_anagram?(word)
-      if str == @spec
-        puts "#{str}"
+      if str.chars.sort == @spec.chars.sort
+        puts "#{str.chars.sort}"
+      end  
     end
   end
   
